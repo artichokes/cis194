@@ -1,7 +1,7 @@
 module HW1.HanoiSpec (main, spec) where
 
-import Test.Hspec
-import HW1.Hanoi
+import           HW1.Hanoi
+import           Test.Hspec
 
 main :: IO ()
 main = hspec spec

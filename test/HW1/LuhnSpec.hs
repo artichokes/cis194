@@ -1,7 +1,7 @@
 module HW1.LuhnSpec (main, spec) where
 
-import Test.Hspec
-import HW1.Luhn
+import           HW1.Luhn
+import           Test.Hspec
 
 main :: IO ()
 main = hspec spec
